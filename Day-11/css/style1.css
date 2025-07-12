@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(90, 173, 236);
+    color: white;
+    height: 80px;
+}
+.logo{
+    margin-left: .5em;
+    margin-top: .5em;
+}
+
+.logotitle{
+    align-items: center;
+    font-weight: bolder;
+    font-size: 28pxpx;
+    color: white;
+    position: absolute;
+    top: 1.5em;
+    left: 5em;
+
+}
+.menu{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    margin-right: 4em;
+}
+.list{
+    display: flex;
+    gap: 3em;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input[type="button"]{
+    background-color: rgb(227, 98, 18);
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+}
+main{
+    height: 500px;
+    background-color:  rgb(90, 173, 236);
+    text-align: justify;
+    padding-top: 90px;
+    
+}
+.leftsection{
+    padding: 2em;
+    width: 50%;
+    height: 300px;
+    margin-top: 50px;
+    color: white;
+}
+.rightsection{
+    background-color: red;
+    width: 30%;
+    height: 400px;
+}
+.main2{
+    display: flex ;
+    justify-content: space-around;
+}
+h3{
+    margin-left: 1rem;
+}
+h1,p{
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+}
+.circle{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:-44px;
+    left: 0px;
+}
+.boxes{
+    height: 100px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: rgb(90, 173, 236);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.box1{
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.box2{
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 200px;
+    height:100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.box3{
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.box4{
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}

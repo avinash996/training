@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 2px solid black;
+        }
+        .parent{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        .child{
+            
+            margin: 20px;
+            width: 200px;
+            padding: 25px;
+            outline-width: 10px;
+            outline-color: red;
+            outline-style: solid;
+        }
+        .c1{
+            background-color: rgb(77, 77, 239);
+            order:5;
+        }
+          .c2{
+            background-color: yellow;
+            order:4;
+        }
+          .c3{
+            background-color: skyblue;
+            order:2;
+        }
+          .c4{
+            background-color: green;
+            order:3;
+        }
+          .c5{
+            background-color: orange;
+            order:1;
+        }
+    </style>
+</head>
+<body>
+    <div class = "parent">
+    <div class="child c1">First</div>
+    <div class="child c2">Second</div>
+    <div class="child c3">Third</div>
+    <div class="child c4">Fourth</div>
+    <div class="child c5">Fifth</div>
+    </div>
+    
+</body>
+</html>

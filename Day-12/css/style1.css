@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header, footer{
+    background-color: rgb(1, 1, 58);
+    color: white;
+    text-align: center;
+  
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.card{
+   background-color: #f9f9f9;
+    width: 200px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(190, 189, 189);
+    transition:transform .3s ease;
+    border: 2px solid transparent;
+    gap: 40px;
+    line-height: 20px;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+.card h2{
+    color: blue;
+}
+.card:hover{
+    transform: scale(1.1, 1.1);
+    border-color: blue;
+
+}
