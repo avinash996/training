@@ -1,0 +1,2 @@
+flex: = flex grow + flex shrink
+ul>(li>a)*3 

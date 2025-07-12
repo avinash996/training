@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="form-group">
+            <label for="">Data</label>
+                <input type="text" name="data" id="data">
+        </div>
+        <div id="result"></div>
+        <div>
+            <button onclick="addData()">Add</button>
+            <button onclick="displayData()">Display</button>
+        </div>
+    </section>
+    <script>
+        var arr = [];
+        function isPrime(num){
+            if(num<=1) return false;
+            for(let i=2;i<Math.sqrt(num); i++){
+                if(num % i == 0)
+                return false;
+            }
+            return true;
+        }
+        function addData(){
+            let input = parseInt(document.getElementById("data").value);
+            arr.push(input);
+            document.getElementById("result").innerHTML=arr;
+        }
+        function displayPrime(){
+            let primeArr = [];
+            for(let data of arr){
+                if(isPrime(data)){
+                    primeArr.push(data);
+                }
+            }
+            document.getElementById("result").innerHTML=primeArr;
+        }
+    </script>
+</body>
+</html>
